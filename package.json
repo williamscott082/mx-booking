@@ -1,0 +1,32 @@
+{
+  "name": "mx-booking",
+  "version": "0.0.0",
+  "description": "POC for the Merchant Experience Booking Tool",
+  "repository": "https://github.com/williamscott082/mx-booking.git",
+  "main": "server.js",
+  "scripts": {
+    "test": "unit"
+  },
+  "author": "Will Scott",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.5.0",
+    "body-parser": "^1.17.2",
+    "connect-mongo": "^1.3.2",
+    "express": "^4.15.4",
+    "express-session": "^1.15.5",
+    "lodash": "^4.17.4",
+    "method-override": "^2.3.9",
+    "mongoose": "^4.11.9",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0",
+    "serve-static": "^1.12.4"
+  },
+  "devDependencies": {
+    "chai": "^4.1.1",
+    "chai-things": "^0.2.0",
+    "mocha": "^3.5.0",
+    "request": "^2.81.0",
+    "webpack": "^3.5.5"
+  }
+}
